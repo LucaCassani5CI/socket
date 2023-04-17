@@ -37,3 +37,5 @@ while True:
     reply=str(reply)
     #invio di una risposta al client
     sock.sendto(reply.encode(), addr)
+
+sock.close()
